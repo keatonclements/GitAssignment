@@ -1,0 +1,18 @@
+A. Counting objects: 4, done.
+   Delta compression using up to 4 threads.
+   Compressing objects: 100% (3/3), done.
+   Writing objects: 100% (4/4), 526 bytes | 0 bytes/s, done.
+   Total 4 (delta 1), reused 0 (delta 0)
+   remote: Resolving deltas: 100% (1/1), completed with 1 local objects.
+   To https://github.com/keatonclements/GitAssignment.git
+      f6ebd2b..464e209  master -> master
+B. 9 commits so far.
+   Command: git log
+C. Thu Sep 15 10:29:34 2016 -0400
+   Command: git log --follow .gitignore
+D. 4 times.
+   Command: git log --follow src/
+E. git status shows the working tree status whereas git log gets info about the last commits
+F. git log --follow RoleGame.java
+G. git log --grep="file"
+H. git log --after="09/01/2016" --before="09/16/2016" --author="Alice"
