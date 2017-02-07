@@ -5,9 +5,7 @@ package edu.fsu.cs.cen4021.armory;
  */
 class Sword extends BasicWeapon implements Weapon {
 
-    Sword() {
-        super(50);
-    }
+    Sword() { super(50); }
 
     @Override
     public int hit() {
