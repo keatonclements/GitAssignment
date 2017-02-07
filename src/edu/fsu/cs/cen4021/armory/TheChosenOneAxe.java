@@ -40,13 +40,15 @@ class TheChosenOneAxe extends BasicWeapon implements Weapon {
 
     private int dmg() throws FileNotFoundException{
         String a;
-        String b;
-        int counter = 0;        //Starts on Line 1
+        int counter = 1;        //Starts on Line 1
         Scanner input = new Scanner(new File ("conf/thechosenone.txt"));
         a = input.nextLine();
         while(input.nextLine().equals(a)){
-            counter++;
+            ++counter;
         }
+        if(counter != 1)            //accounts for if the first line contains b
+            counter++;
+
         return counter;
     }
 }
