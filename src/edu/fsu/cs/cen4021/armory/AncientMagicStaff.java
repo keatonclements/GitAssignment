@@ -9,11 +9,13 @@ class AncientMagicStaff extends BasicWeapon implements Weapon {
 
     AncientMagicStaff() {super(0);}
 
+    @Override
     public int hit() {
         int damage = read();
         return damage;
     }
 
+    @Override
     public int hit(int armor) {
         int damage = read();
         double dmg = damage - (armor*0.75);     //ignores 25% of armor
